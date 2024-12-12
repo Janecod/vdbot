@@ -280,4 +280,4 @@ handleStart(safeguardBot);
 handleStart(delugeBot);
 handleStart(guardianBot);
 
-app.listen(process.env.PORT || 80, () => console.log(`loaded everyone & running on port ${process.env.PORT}`));
+app.listen(process.env.PORT || 3000, () => console.log(`loaded everyone & running on port ${process.env.PORT}`));
